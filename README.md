@@ -36,22 +36,22 @@ Primero lo que tenemos que hacer es crear el volumen al cual vamos a asignarle a
 ``docker volume create pg_db``
       
 Ahora lo que hacemos es crear la red por la cual van a estar conectados el cliente y el servidor:
-<p>
+
 ``docker network create pg_network``
-   </p>
+  
 Por consiguiente lo que vamos a hacer es crear el pg_server:
-<p>
+
 ``docker run --name pg_server --network pg_network -v pg_db:/var/lib/postgresql/data -e POSTGRES_PASSWORD=contrasena -d postgres:15-bookworm``
-</p>
+
 [!IMPORTANT]
 Utilizamos - docker logs pg_server para ver el estado del  servidor
 
-</p>
-<p>
+
 Ahora, creamos la base de datos dentro del pg_server de la siguiente manera y entramos a postgres:
    
 ``docker exec -it pg_server bash 
 psql -U postgres -> Acceder a postgres``
+
 Ahora, una vez dentro hacemos el db y hacemos una tabla en este:
 ``CREATE DATABASE tarea_db;
  \c tarea_db
@@ -59,6 +59,7 @@ Ahora, una vez dentro hacemos el db y hacemos una tabla en este:
     id SERIAL PRIMARY KEY,
     mensaje TEXT
 ); ``
+
 Y nos salimos
 ``\q
 exit ``
@@ -99,5 +100,22 @@ Ya procedemos a borrar todo:
 <h4 align="center" id="integrantes"> 
 4. Integrantes
 </h4>
+
+</h4>
+
+<p align="center">
+   Juan David Pinto Rodriguez 
+   2240440
+</p>
+
+<p align="center">
+   Juan Jose Mafla Pacheco
+   2126990
+</p>
+
+<p align="center">
+   Jose Adrian Marin Ordonez
+   2126988
+</p>
 
 :trollface:
