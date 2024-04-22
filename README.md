@@ -15,9 +15,9 @@
 3. [Video]
 4. [Integrantes]
 
-<h3 align="center">
+<h5 align="center">
 Descripción del código
-</h3>
+</h5>
 
 <h1>
    La idea principal de esta tarea es poder conectarnos a una virtual  machine que contiene una base de datos en postgres y poder utilizarla, usando principal lo aprendido en clase
