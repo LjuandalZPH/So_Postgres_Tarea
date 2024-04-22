@@ -44,17 +44,16 @@ Por consiguiente lo que vamos a hacer es crear el pg_server:
 [!IMPORTANT]
 Utilizamos - docker logs pg_server para ver el estado del  servidor
 
-</p>`
+</p>
 <p>
-Ahora, creamos la base de datos dentro del pg_server de la siguiente manera:
+Ahora, creamos la base de datos dentro del pg_server de la siguiente manera y entramos a postgres:
    
-``docker exec -it pg_server bash ``
-``psql -U postgres -> Acceder a postgres``
+``docker exec -it pg_server bash 
+psql -U postgres -> Acceder a postgres``
 Ahora, una vez dentro hacemos el db y hacemos una tabla en este:
-``CREATE DATABASE tarea_db;``
-`` \c tarea_db``
-
-``CREATE TABLE pg_tabla(
+``CREATE DATABASE tarea_db;
+ \c tarea_db
+ CREATE TABLE pg_tabla(
     id SERIAL PRIMARY KEY,
     mensaje TEXT
 ); ``
@@ -63,11 +62,10 @@ Y nos salimos
 exit ``
 </p>
 </p>
-Ahora creamos el cliente y de tacazo abrimos la terminal del contenedor:
+Ahora creamos el cliente y entramos al shell de este:
 
 `` docker run - - name pg_client - -network pg_network -it postgres:15-bookworm psql -h pg_server -U postgres ``
-Colocamos la clave que le hayamos puesto al server, en este caso “contrasena”
-Una vez dentro, debemos poner lo siguiente:
+Colocamos la clave de la base de datos, entramos a la database tarea_db y vemos lo que hay:
 `` \c tarea_db
 SELECT*FROM pg_tabla
 ``  
@@ -76,14 +74,23 @@ De ahí solamente hacemos los pasos que nos piden dentro de la validación:
 Ingresamos los datos con 
 `` INSERT INTO pg_tabla(mensaje) VALUES(‘hola mundo’);``
   
-Detener la ejecución del contenedor que corre la versión Postgres 15-bookworm.
+Detenemos la ejecución del contenedor que corre la versión Postgres 15-bookworm:
 ``docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)``
-Ejecute ahora el cliente y ejecutar dentro de este contenedor lo siguiente:
-Borrar los contenedores (pg_server, pg_client), el volumen (pg_db) y la red (pg_network) creados para esta tarea.
-para borrar:
+
+Ya procedemos a borrar todo:
 ``docker network rm pg_network
  docker volume rm pg_db``
 
+</h5>
+
+<hr>
+<h4> 
+3. Video
+</h4>
+
+<h5>
+   ![YouTube](ruta/a/tu/imagen.svg)
 
 </h5>
+<hr>
 :trollface:
