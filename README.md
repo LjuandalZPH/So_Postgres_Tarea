@@ -10,12 +10,13 @@
    </p>
 
 ## Table of Contents
-1. [Descripcion del código]
+1. [<a href="#descripcion-del-codigo">Descripción del código</a>]
+
 2. [Paso a paso]
 3. [Video]
 4. [Integrantes]
 
-<h4 align="center">
+<h4 align="center" id="descripcion-del-codigo">
 1. Descripción del código
 </h4>
 
@@ -88,8 +89,8 @@ Ya procedemos a borrar todo:
 3. Video
 </h4>
 
-<h5>
-   ![YouTube](ruta/a/tu/imagen.svg)
+<h5 align="center">
+   ![YouTube]()
 
 </h5>
 <hr>
