@@ -1,17 +1,21 @@
-# So_Postgres_Tarea
+<em> # Postgres & contenedores</em>
 
+
+<h4 align="center">
+:hugs: Proyecto terminado :hugs:
+</h4>
+
+![Uploading 169884770-c7364478-2430-445f-97e1-b5c19e736c4f.png…]()
 
 
 
 ## Table of Contents
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
+1. [Descripcion del codigo]
+2. [Paso a paso]
+3. [Video]
+4. [Integrantes]
 
 
-<h4 align="center">
-:construction: Proyecto en construcción :construction:
-</h4>
-#general-info
+
+
+:trollface:
