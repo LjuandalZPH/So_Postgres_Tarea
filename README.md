@@ -16,12 +16,16 @@
 4. [Integrantes]
 
 <h4 align="center">
-Descripción del código
+1. Descripción del código
 </h4>
 
-<h6>
+<h5>
    La idea principal de esta tarea es poder conectarnos a una virtual  machine que contiene una base de datos en postgres y poder utilizarla, usando principal lo aprendido en clase
    usando docker para hacer los contenedores. 
-</h6>
+</h5>
 <hr>
+
+<h4 align="center">
+2. Paso a paso
+</h4>
 :trollface:
