@@ -33,43 +33,52 @@
    <p>
    Pasos Tarea SO:
 Primero lo que tenemos que hacer es crear el volumen al cual vamos a asignarle a pg_server:
-docker volume create pg_db
+- docker volume create pg_db
 Ahora lo que hacemos es crear la red por la cual van a estar conectados el cliente y el servidor:
-docker network create pg_network
+- docker network create pg_network
 Por consiguiente lo que vamos a hacer es crear el pg_server:
-docker run --name pg_server --network pg_network -v pg_db:/var/lib/postgresql/data -e POSTGRES_PASSWORD=contrasena -d postgres:15-bookworm
-Nota: utilizar “docker logs pg_server” para saber si el servidor está corriendo de forma correcta (Acordarse que a mi me dio error porque era incompatible con la versión 15-bookworm)
-Ahora, creamos la base de datos dentro del pg_server de la siguiente manera:
+- docker run --name pg_server --network pg_network -v pg_db:/var/lib/postgresql/data -e POSTGRES_PASSWORD=contrasena -d postgres:15-bookworm
+
+Utilizamos - docker logs pg_server para ver el esstado del  servidor
 
 </p>
-docker exec -it pg_server bash -> consola de comandos del contenedor
-psql -U postgres -> Acceder a postgres
-Ahora, una vez dentro:
-CREATE DATABASE tarea_db;
-\c tarea_db
-;CREATE TABLE pg_tabla(
+<p>
+Ahora, creamos la base de datos dentro del pg_server de la siguiente manera:
+   
+- docker exec -it pg_server bash -> consola de comandos del contenedor
+- psql -U postgres -> Acceder a postgres
+Ahora, una vez dentro hacemos el db y hacemos una tabla en este:
+- CREATE DATABASE tarea_db;
+- \c tarea_db
+CREATE TABLE pg_tabla(
     id SERIAL PRIMARY KEY,
     mensaje TEXT
 ); 
+Y nos salimos
 \q
 exit
+</p>
+</p>
 Ahora creamos el cliente y de tacazo abrimos la terminal del contenedor:
-docker run - - name pg_client - -network pg_network -it postgres:15-bookworm psql -h pg_server -U postgres
-Colocar la clave que le hayamos puesto al server, en este caso “contrasena”
-Una vez dentro, debemos poner lo siguiente: \c tarea_db
-SELECT*FROM pg_tabla
+
+- docker run - - name pg_client - -network pg_network -it postgres:15-bookworm psql -h pg_server -U postgres
+Colocamos la clave que le hayamos puesto al server, en este caso “contrasena”
+Una vez dentro, debemos poner lo siguiente:
+- \c tarea_db
+- SELECT*FROM pg_tabla
+  
 De ahí solamente hacemos los pasos que nos piden dentro de la validación:
-Para validar que todo funciona como se visualiza en la gráfica es lo siguiente:
-Ejecutar el contenedor de la base de datos por primera vez y usando la versión de Postgres 15-bookworm mostrar que la base de datos ha sido creada. Hacer inserción de un registro en la base de datos cuyo valor en el campo mensaje sea ‘hola mundo.
-Ingresamos los datos con INSERT INTO pg_tabla(mensaje) VALUES(‘hola mundo’); hacer select from de nuevo
-Para salirte \q
+
+Ingresamos los datos con 
+- INSERT INTO pg_tabla(mensaje) VALUES(‘hola mundo’);
+  
 Detener la ejecución del contenedor que corre la versión Postgres 15-bookworm.
-docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)
+- docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)
 Ejecute ahora el cliente y ejecutar dentro de este contenedor lo siguiente:
 Borrar los contenedores (pg_server, pg_client), el volumen (pg_db) y la red (pg_network) creados para esta tarea.
 para borrar:
-docker network rm pg_network?
-docker volume rm pg_db
+- docker network rm pg_network?
+- docker volume rm pg_db
 
 
 </h5>
