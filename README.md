@@ -36,10 +36,13 @@ Primero lo que tenemos que hacer es crear el volumen al cual vamos a asignarle a
 ``docker volume create pg_db``
       
 Ahora lo que hacemos es crear la red por la cual van a estar conectados el cliente y el servidor:
+<p>
 ``docker network create pg_network``
+   </p>
 Por consiguiente lo que vamos a hacer es crear el pg_server:
+<p>
 ``docker run --name pg_server --network pg_network -v pg_db:/var/lib/postgresql/data -e POSTGRES_PASSWORD=contrasena -d postgres:15-bookworm``
-
+</p>
 [!IMPORTANT]
 Utilizamos - docker logs pg_server para ver el estado del  servidor
 
