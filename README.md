@@ -33,7 +33,9 @@
    <p>
    Pasos Tarea SO:
 Primero lo que tenemos que hacer es crear el volumen al cual vamos a asignarle a pg_server:
+      ```
 - docker volume create pg_db
+      ```
 Ahora lo que hacemos es crear la red por la cual van a estar conectados el cliente y el servidor:
 - docker network create pg_network
 Por consiguiente lo que vamos a hacer es crear el pg_server:
@@ -73,7 +75,7 @@ Ingresamos los datos con
 - INSERT INTO pg_tabla(mensaje) VALUES(‘hola mundo’);
   
 Detener la ejecución del contenedor que corre la versión Postgres 15-bookworm.
-- docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)
+- ```docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)```
 Ejecute ahora el cliente y ejecutar dentro de este contenedor lo siguiente:
 Borrar los contenedores (pg_server, pg_client), el volumen (pg_db) y la red (pg_network) creados para esta tarea.
 para borrar:
