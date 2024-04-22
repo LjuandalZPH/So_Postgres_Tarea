@@ -5,17 +5,15 @@
 :hugs: Proyecto terminado :hugs:
 </h4>
 
-<p align="centeer">
+<p align="center">
    <img src="https://user-images.githubusercontent.com/66388384/169884770-c7364478-2430-445f-97e1-b5c19e736c4f.png">
    </p>
 
 ## Table of Contents
 1. [<a href="#descripcion-del-codigo">Descripción del código</a>]
-
-2. [Paso a paso]
-3. [Video]
-4. [Integrantes]
-
+2. [<a href="#paso-a-paso">Paso a paso</a>]
+3. [<a href="#video">Video</a>]
+4. [<a href="#integrantes">Integrantes</a>]
 <h4 align="center" id="descripcion-del-codigo">
 1. Descripción del código
 </h4>
@@ -26,7 +24,7 @@
 </h5>
 <hr>
 
-<h4 align="center">
+<h4 align="center" id="paso-a-paso">
 2. Paso a paso
 </h4>
 
@@ -85,7 +83,7 @@ Ya procedemos a borrar todo:
 </h5>
 
 <hr>
-<h4> 
+<h4 align="center" id="video"> 
 3. Video
 </h4>
 
@@ -94,4 +92,9 @@ Ya procedemos a borrar todo:
 
 </h5>
 <hr>
+
+<h4 align="center" id="integrantes"> 
+4. Integrantes
+</h4>
+
 :trollface:
