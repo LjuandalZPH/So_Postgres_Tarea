@@ -68,19 +68,25 @@ exit ``
 Ahora creamos el cliente y entramos al shell de este:
 
 `` docker run - - name pg_client - -network pg_network -it postgres:15-bookworm psql -h pg_server -U postgres ``
+
 Colocamos la clave de la base de datos, entramos a la database tarea_db y vemos lo que hay:
+
 `` \c tarea_db
 SELECT*FROM pg_tabla
 ``  
+
 De ahí solamente hacemos los pasos que nos piden dentro de la validación:
 
 Ingresamos los datos con 
+
 `` INSERT INTO pg_tabla(mensaje) VALUES(‘hola mundo’);``
   
 Detenemos la ejecución del contenedor que corre la versión Postgres 15-bookworm:
+
 ``docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)``
 
 Ya procedemos a borrar todo:
+
 ``docker network rm pg_network
  docker volume rm pg_db``
 
