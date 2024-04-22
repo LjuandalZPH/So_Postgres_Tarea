@@ -33,9 +33,9 @@
    <p>
    Pasos Tarea SO:
 Primero lo que tenemos que hacer es crear el volumen al cual vamos a asignarle a pg_server:
-      ```
-docker volume create pg_db
-      ``
+      
+``docker volume create pg_db``
+      
 Ahora lo que hacemos es crear la red por la cual van a estar conectados el cliente y el servidor:
 - docker network create pg_network
 Por consiguiente lo que vamos a hacer es crear el pg_server:
