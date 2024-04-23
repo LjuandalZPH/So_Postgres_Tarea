@@ -33,8 +33,7 @@
 </h4>
 
 <h5>
-   La idea principal de esta tarea es poder conectarnos a una virtual  machine que contiene una base de datos en postgres y poder utilizarla, usando principal lo aprendido en clase
-   usando docker para hacer los contenedores. 
+   La idea principal de esta tarea es poder conectarnos a una virtual  machine que contiene una base de datos en postgres y poder utilizarla, usando docker para hacer los contenedores. 
 </h5>
 <hr>
 
