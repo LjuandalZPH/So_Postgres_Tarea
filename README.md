@@ -120,7 +120,7 @@ Ya procedemos a borrar todo:
 4. Integrantes
 </h4>
 
-<div style="margin: 0 auto; width: fit-content;">
+<div align="center">
 
 | Nombre                      | Código  |
 |-----------------------------|---------|
