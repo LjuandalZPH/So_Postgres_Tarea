@@ -120,18 +120,20 @@ Ya procedemos a borrar todo:
 4. Integrantes
 </h4>
 
+<h4 align="center" id="integrantes"> 
+4. Integrantes
 </h4>
 
 <p align="center">
-  | Nombre                      | Código  |
+   
+| Nombre                      | Código  |
 |-----------------------------|---------|
 | Juan David Pinto Rodríguez | 2240440 |
-|-----------------------------|---------|
 | Juan Jose Mafla Pacheco     | 2126990 |
-|-----------------------------|---------|
 | Jose Adrian Marin Ordonez   | 2126988 |
-
+   
 </p>
+
 
 <p align="right">
 :trollface:
