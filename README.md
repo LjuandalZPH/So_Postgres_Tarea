@@ -23,8 +23,8 @@
 
  ![Texto Alternativo](https://github.com/LjuandalZPH/So_Postgres_Tarea/blob/main/images/icons8-docker-a-set-of-coupled-software-as-a-service-96.png?raw=true)
 
-![Texto Alternativo]([carpeta/imagen.png](https://github.com/LjuandalZPH/So_Postgres_Tarea/blob/main/images/icons8-linux-96.png?raw=true))
-![Texto Alternativo]([carpeta/imagen.png](https://github.com/LjuandalZPH/So_Postgres_Tarea/blob/main/images/icons8-postgres-96.png?raw=true))
+![Texto Alternativo](carpeta/imagen.png](https://github.com/LjuandalZPH/So_Postgres_Tarea/blob/main/images/icons8-linux-96.png?raw=true)
+![Texto Alternativo](carpeta/imagen.png](https://github.com/LjuandalZPH/So_Postgres_Tarea/blob/main/images/icons8-postgres-96.png?raw=true)
 
 
 </h3>
