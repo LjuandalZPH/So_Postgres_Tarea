@@ -20,7 +20,9 @@
 <hr>
 <h3>
  Tecnologia usada:
-![alt text](https://www.docker.com/sites/default/files/d8/2019-07/horizontal-logo-monochromatic-white.png "Logo de Docker")
+<span class="iconify" data-icon="simple-icons:docker"></span> <!-- Icono de Docker -->
+<span class="iconify" data-icon="logos:postgresql"></span> <!-- Icono de PostgreSQL -->
+
 
 </h3>
  
@@ -134,12 +136,11 @@ Juan Jose Mafla Pacheco
  
 </td>
 <td width="33%">
-Jose Adrian Marin Ordoñez
+Jose Adrián Marín Ordoñez
  2126988
 </td>
 </tr>
 </table>
-\---
 </div>
 
 
