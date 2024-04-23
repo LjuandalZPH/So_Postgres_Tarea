@@ -20,7 +20,8 @@
 <hr>
 <h3>
  Tecnologia usada:
- ![alt text]([https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png](https://jblazquez.es/wp-content/uploads/2023/11/docker.png) "Logo Title Text 1")
+![alt text](https://www.docker.com/sites/default/files/d8/2019-07/horizontal-logo-monochromatic-white.png "Logo de Docker")
+
 </h3>
  
 1. Descripción del código
