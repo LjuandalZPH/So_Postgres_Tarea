@@ -25,7 +25,7 @@
 <hr>
 
 <h4 align="center" id="paso-a-paso">
-2. Paso a paso <img src="https://logowik.com/content/uploads/images/301_docker.jpg" alt="Logo de Docker" width="200" height="100">
+2. Paso a paso
 
 
 
