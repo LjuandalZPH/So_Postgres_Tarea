@@ -120,20 +120,36 @@ Ya procedemos a borrar todo:
 4. Integrantes
 </h4>
 
-<div style="text-align: center; border: 2px solid #ccc; padding: 10px; border-radius: 10px; background-color: #f9f9f9; box-shadow: 0 2px 5px rgba(0,0,0,0.1); max-width: 500px; margin: 0 auto;">
-
-| Nombre                      | Código  |
-|-----------------------------|---------|
-| Juan David Pinto Rodríguez | 2240440 |
-| Juan Jose Mafla Pacheco     | 2126990 |
-| Jose Adrian Marin Ordonez   | 2126988 |
-
+<div style="margin: 0 auto; width: fit-content; border: 2px solid #ccc; padding: 10px; border-radius: 10px; background-color: #f9f9f9; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Código</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Juan David Pinto Rodríguez</td>
+                <td>2240440</td>
+            </tr>
+            <tr>
+                <td>Juan Jose Mafla Pacheco</td>
+                <td>2126990</td>
+            </tr>
+            <tr>
+                <td>Jose Adrian Marin Ordonez</td>
+                <td>2126988</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 
 
-<h3>
+
+
 <p align="right">
 :trollface:
 </p>
-</h3>
+
 
