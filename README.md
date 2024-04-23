@@ -120,15 +120,16 @@ Ya procedemos a borrar todo:
 4. Integrantes
 </h4>
 
-<div align="center">
-   
+<div style="text-align: center; border: 2px solid #ccc; padding: 10px; border-radius: 10px; background-color: #f9f9f9; box-shadow: 0 2px 5px rgba(0,0,0,0.1); max-width: 500px; margin: 0 auto;">
+
 | Nombre                      | Código  |
 |-----------------------------|---------|
 | Juan David Pinto Rodríguez | 2240440 |
 | Juan Jose Mafla Pacheco     | 2126990 |
 | Jose Adrian Marin Ordonez   | 2126988 |
-   
+
 </div>
+
 
 <h3>
 <p align="right">
