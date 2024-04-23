@@ -123,14 +123,14 @@ Ya procedemos a borrar todo:
 </h4>
 
 <p align="center">
-   Juan David Pinto Rodríguez
-   2240440
-   -------------
-   Juan Jose Mafla Pacheco
-   2126990
-   -------------
-   Jose Adrian Marin Ordonez
-   2126988
+  | Nombre                      | Código  |
+|-----------------------------|---------|
+| Juan David Pinto Rodríguez | 2240440 |
+|-----------------------------|---------|
+| Juan Jose Mafla Pacheco     | 2126990 |
+|-----------------------------|---------|
+| Jose Adrian Marin Ordonez   | 2126988 |
+
 </p>
 
 <p align="right">
