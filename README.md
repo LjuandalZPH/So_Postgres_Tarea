@@ -60,8 +60,8 @@ Por consiguiente lo que vamos a hacer es crear el pg_server:
 
 ``docker run --name pg_server --network pg_network -v pg_db:/var/lib/postgresql/data -e POSTGRES_PASSWORD=contrasena -d postgres:15-bookworm``
 
-[!IMPORTANT]
-Utilizamos - docker logs pg_server para ver el estado del  servidor
+>[!IMPORTANT]
+>Utilizamos - docker logs pg_server para ver el estado del  servidor
 
 
 Ahora, creamos la base de datos dentro del pg_server de la siguiente manera y entramos a postgres:
