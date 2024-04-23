@@ -25,7 +25,9 @@
 <hr>
 
 <h4 align="center" id="paso-a-paso">
-2. Paso a paso ![Logo de Docker](https://www.docker.com/sites/default/files/d8/2019-07/horizontal-logo-monochromatic-white.png){:height="100px" width="200px"}
+2. Paso a paso 
+![Logo de Docker](https://www.docker.com/sites/default/files/d8/2019-07/horizontal-logo-monochromatic-white.png){:height="100px" width="200px"}
+
 
 </h4>
 
