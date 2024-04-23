@@ -120,7 +120,6 @@ Ya procedemos a borrar todo:
 4. Integrantes
 </h4>
 
-</h4>
 <div align="center">
    
 | Nombre                      | Código  |
@@ -131,8 +130,9 @@ Ya procedemos a borrar todo:
    
 </div>
 
-<h2>
+<h3>
 <p align="right">
 :trollface:
 </p>
-</h2>
+</h3>
+
