@@ -124,7 +124,7 @@ Ya procedemos a borrar todo:
 4. Integrantes
 </h4>
 
-<p align="center">
+<div align="center">
    
 | Nombre                      | Código  |
 |-----------------------------|---------|
@@ -132,7 +132,7 @@ Ya procedemos a borrar todo:
 | Juan Jose Mafla Pacheco     | 2126990 |
 | Jose Adrian Marin Ordonez   | 2126988 |
    
-</p>
+</div>
 
 
 <p align="right">
