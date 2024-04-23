@@ -2,7 +2,7 @@
 
 
 <h4 align="center">
-:hugs: Proyecto terminado :hugs:
+ :whale2: Proyecto terminado  :whale2:
 </h4>
 
 <p align="center">
