@@ -122,12 +122,23 @@ Ya procedemos a borrar todo:
 
 <div align="center">
 
-| Nombre                      | Código  |
-|-----------------------------|---------|
-| Juan David Pinto Rodríguez | 2240440 |
-| Juan Jose Mafla Pacheco     | 2126990 |
-| Jose Adrian Marin Ordonez   | 2126988 |
-
+<table>
+<tr>
+<td width="33%"">
+Juan David Pinto Rodriguez
+ 2240440
+</td>
+<td width="33%">
+Juan Jose Mafla Pacheco
+2126990
+ 
+</td>
+<td width="33%">
+Jose Adrian Marin Ordoñez
+ 2126988
+</td>
+</tr>
+</table>
 </div>
 
 
