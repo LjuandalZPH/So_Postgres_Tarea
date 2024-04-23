@@ -20,12 +20,11 @@
 <hr>
 <h3>
  Tecnologia usada:
-<span class="iconify" data-icon="simple-icons:docker"></span> <!-- Icono de Docker -->
-<span class="iconify" data-icon="logos:postgresql"></span> <!-- Icono de PostgreSQL -->
 
 
 </h3>
- 
+
+ ---
 1. Descripción del código
 </h4>
 
