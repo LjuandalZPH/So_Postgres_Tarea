@@ -20,6 +20,9 @@
 <hr>
 <h3>
  Tecnologia usada:
+![Docker](https://github.com/LjuandalZPH/So_Postgres_Tarea/blob/main/images/icons8-docker-a-set-of-coupled-software-as-a-service-96.png?raw=true)
+![Texto Alternativo](carpeta/imagen.png)
+![Texto Alternativo](carpeta/imagen.png)
 
 
 </h3>
