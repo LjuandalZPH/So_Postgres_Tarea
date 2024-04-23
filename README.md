@@ -20,7 +20,9 @@
 <hr>
 <h3>
  Tecnologia usada:
-![Docker](https://github.com/LjuandalZPH/So_Postgres_Tarea/blob/main/images/icons8-docker-a-set-of-coupled-software-as-a-service-96.png?raw=true)
+
+ ![Texto Alternativo](https://github.com/LjuandalZPH/So_Postgres_Tarea/blob/main/images/icons8-docker-a-set-of-coupled-software-as-a-service-96.png?raw=true)
+
 ![Texto Alternativo](carpeta/imagen.png)
 ![Texto Alternativo](carpeta/imagen.png)
 
@@ -60,11 +62,10 @@ Por consiguiente lo que vamos a hacer es crear el pg_server:
 
 ``docker run --name pg_server --network pg_network -v pg_db:/var/lib/postgresql/data -e POSTGRES_PASSWORD=contrasena -d postgres:15-bookworm``
 
-> [!IMPORTANT]
-> Vital information required for users to attain success.
+
 
 >[!IMPORTANT]
->Utilizamos - docker logs pg_server para ver el estado del  servidor
+Utilizamos - docker logs pg_server para ver el estado del  servidor
 
 
 Ahora, creamos la base de datos dentro del pg_server de la siguiente manera y entramos a postgres:
