@@ -15,6 +15,14 @@
 3. [<a href="#video">Video</a>]
 4. [<a href="#integrantes">Integrantes</a>]
 <h4 align="center" id="descripcion-del-codigo">
+
+
+<hr>
+<h3>
+ Tecnologia usada:
+ ![alt text]([https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png](https://jblazquez.es/wp-content/uploads/2023/11/docker.png) "Logo Title Text 1")
+</h3>
+ 
 1. Descripción del código
 </h4>
 
