@@ -117,7 +117,7 @@ Ya procedemos a borrar todo:
 </h4>
 
 <h5 align="center">
-   ![Texto Alternativo](https://youtu.be/Ps9WbJL-vYE)
+   Link del video: (https://youtu.be/Ps9WbJL-vYE)
 
 </h5>
 <hr>
