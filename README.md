@@ -123,16 +123,12 @@ Ya procedemos a borrar todo:
 </h4>
 
 <p align="center">
-   Juan David Pinto Rodriguez 
+   Juan David Pinto Rodríguez
    2240440
-</p>
-
-<p align="center">
+   -------------
    Juan Jose Mafla Pacheco
    2126990
-</p>
-
-<p align="center">
+   -------------
    Jose Adrian Marin Ordonez
    2126988
 </p>
